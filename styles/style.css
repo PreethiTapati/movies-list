@@ -10,7 +10,8 @@
 
 body {
     background: #f0eeee;
-    background-image: url('../assets/bg-img.png');
+    background-image: url('../assets/bg-img.jpg');
+    background-position: cover;
 }
 .container {
     text-align: center;
