@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "format": "prettier --write ./",
-    "server": "json-server --watch data/db.json --port 5000"
+    "server": "json-server --watch db.json --port 5000"
   },
   "keywords": [],
   "author": "",

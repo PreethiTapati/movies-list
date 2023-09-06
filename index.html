@@ -3,10 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="./assets/icon.png" type="icon" />
         <link rel="stylesheet" href="./styles/style.css" />
-        <title>Movies List</title>
+        <title>Movies List 🎬</title>
     </head>
     <body>
+        <div class="container">
+            <h1>Movie Flyers 🎥🎞️🎶</h1>
+            <input id="movieTitle" type="text" placeholder="add movie title" />
+            <input id="source" type="text" placeholder="moviesrc" />
+            <input id="year" type="text" placeholder="Add year" />
+            <input id="description" type="text" placeholder="Add description" />
+            <button type="button" id="btn">Add movie</button>
+        </div>
+        <div class="error"></div>
+        <div class="movies"></div>
         <script type="module" src="./src/init.js"></script>
     </body>
 </html>
