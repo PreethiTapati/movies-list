@@ -6,17 +6,17 @@ const createMovie = (movieData) => {
     const container = document.createElement('div');
     container.classList.add('image-box');
     container.id = movieData.id;
-
+    
+    // Create title
+    const title = document.createElement('h6');
+    title.innerText = movieData.title;
+   
     // Create an img
     const img = document.createElement('img');
     img.src = movieData.src;
     img.alt = movieData.title;
 
-    // Create title
-    const title = document.createElement('h6');
-    title.innerText = movieData.title;
-
-    // Create a year
+   // Create a year
     const year = document.createElement('h5');
     year.innerText = movieData.year;
 

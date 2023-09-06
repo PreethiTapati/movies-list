@@ -26,7 +26,7 @@ const postMovieHandler = async (e) => {
 
     // Check if title and source exist
     if (!newMovie.title || !newMovie.src) {
-        dom.error.innerText = 'Please add movie title and source';
+        dom.error.innerText = 'Please add atleast movie title and source';
         dom.error.classList.add('err');
 
         // Flash the error message
