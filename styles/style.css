@@ -10,12 +10,11 @@
 
 body {
     background: #f0eeee;
-    background-image: url('../assets/bg-img.jpg');
-    background-position: cover;
 }
 .container {
     text-align: center;
     position: relative;
+   
 }
 
 /* Style text inputs */
@@ -40,7 +39,7 @@ input[type='text'] {
 
 .error.err {
     display: inline-block;
-    background-color: #dc5935;
+    background-color: #fb0808;
     color: whitesmoke;
     padding: 5px 10px;
     border-radius: 7px;
@@ -75,7 +74,7 @@ h6 {
     margin-top: 3px;
     font-size: 10px;
     text-transform: uppercase;
-    color: #333333;
+    color: #fd1904;
 }
 
 .image-box img {
@@ -84,7 +83,7 @@ h6 {
     max-height: 70%;
     margin: 0;
     padding: 0;
-    background: #f6f2f2;
+    background: #dfa6a6;
 }
 
 /*.image-box h5 {
@@ -116,7 +115,7 @@ h6 {
 
 .image-box h5 {
     font-size: 10px;
-    color: #333;
+    color: #f49280;
     font-weight: bolder;
     margin: 0;
     bottom: 8px;
@@ -124,7 +123,7 @@ h6 {
 
 .image-box p {
     font-size: 10px;
-    color: #0c0c0c;
+    color:  black;
     margin-top: 5px;
     max-height: 25%;
     overflow-y: auto; /* Add scroll if the description overflows */
@@ -153,12 +152,12 @@ h6 {
 }
 
 .btn-container .deleteBtn {
-    background-color: #35b0dc;
+    background-color: hsl(196, 98%, 50%);
     color: #fff;
 }
 
 .btn-container .editBtn {
-    background-color: #0e63b8;
+    background-color: #506482;
     color: #fff;
 }
 
