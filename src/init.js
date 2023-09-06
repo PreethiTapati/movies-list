@@ -1,5 +1,5 @@
 import postMovieEvent from './events/postMovieEvent.js';
-import loadMovieHandler from './handlers/loadMovieHandler.js';
+import loadMovieEvent from './events/loadMovieEvent.js';
 
-loadMovieHandler();
+loadMovieEvent();
 postMovieEvent();
